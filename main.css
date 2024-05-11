@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "Norms";
+    src: url("/font/tt-norms-pro-cufonfonts/TT\ Norms\ Pro\ Bold.otf");
+  }
+
+body
+{
+    background-color: aqua;
+    margin: 0;
+}
+.header
+{
+    height: 92.5%;
+    background-image: url(images/hero_desktop.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.header-top
+{
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header-mid
+{
+    color: white;
+    height: 100%;
+    width: 70%;
+    padding-left: 42.5%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header-mid h1
+{
+    font-family:norms;
+    font-size: 26px;
+}
+.header-img
+{
+    height: 45px;
+    width: auto;
+}
+.header-right
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 24px;
+    right: 0;
+    gap: 8px;
+}
+.header-right button
+{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;    
+}
+
+.header-right-button1
+{
+    color: beige;
+    font-size: 16px;
+    background-color: rgb(236, 17, 17);
+    font-family: norms;
+}
+.header-right-button2
+{
+    color: black;
+    font-size: 16px;
+    background-color: white;
+    font-family: norms;
+}
+.header-center
+{
+    background-color: aqua;
+    margin-top: 13%;
+    margin-left: 25%;
+    margin-right:25%;
+    height: 30%;
+}
+.header-center h1
+{
+    font-family: norms;
+    font-size: 40px;
+}
+.middle
+{
+    height: 100%;
+    background-color: blue;
+}
+.footer
+{
+    height: 100%;
+    background-color: blueviolet;
+}
