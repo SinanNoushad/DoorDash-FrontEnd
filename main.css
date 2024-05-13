@@ -30,19 +30,10 @@ body
     height: 100%;
     width: 70%;
     padding-left: 42.5%;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-.header-mid h1
-{
-    font-family:norms;
-    font-size: 26px;
 }
 .header-img
 {
-    height: 45px;
-    width: auto;
+    height: 100%;
 }
 .header-right
 {
@@ -81,18 +72,123 @@ body
     background-color: aqua;
     margin-top: 13%;
     margin-left: 25%;
-    margin-right:25%;
-    height: 30%;
+    height: 50%;
+    width: 50%;
 }
 .header-center h1
 {
-    font-family: norms;
+    font-family: Norms;
     font-size: 40px;
+}
+.location-input
+{
+margin-top: 3%;
+margin-left: 22.5%;
+display: flex;
+flex-direction: row;
+width: 55%;
+box-sizing: border-box;
+border: none;
+font-size: 16px;
+outline: none;
+border-radius: 75px 75px;
+background: rgb(255, 255, 255);
+text-align: center;
+width: 55%;
+height: 55px;
+
+}
+.location-input:focus
+{
+    outline-color: 2px #ec0303;
+}
+.location-img1:focus
+{
+    outline: #ec0303;
+}
+.location-input input
+{
+    outline: none;
+    width: 330px;
+    height: auto;
+}
+.location-input button
+{
+    background-color: #ec0303;
+    border-radius: 50%;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+    padding: 2px;
+    text-align: center;
+    width:40px;
+    height: 40px;
+}
+.location-img1
+{
+    margin: 10px;
+}
+.location-img2
+{
+    height: 70%;
+    width: 80%;
+    
+}
+.center-signin
+{
+    background-color: rgb(87, 32, 32);
+    display: flex;
+    flex-direction: row;
 }
 .middle
 {
-    height: 100%;
+    height: auto;
     background-color: blue;
+}
+.middle1
+{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 8%;
+
+}
+.middle1-row1
+{
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.middle1-row2
+{
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.middle1-row3
+{
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.img-row1
+{
+    background-color: rgb(185, 220, 220);
+}
+.img-row2
+{
+    background-color: rgb(106, 126, 126);
+}
+.img-row3
+{
+    background-color: rgb(75, 88, 88);
 }
 .footer
 {
