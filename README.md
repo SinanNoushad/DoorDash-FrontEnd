@@ -11,15 +11,6 @@ Welcome to the DoorDash Clone project repository! This project aims to replicate
 
 ## Technologies Used
 
-- **Frontend**: HTML, CSS, JavaScript (React.js)
-
-## Getting Started
-
-To get started with the DoorDash Clone Frontend project, follow these steps:
-
-1. Clone this repository to your local machine.
-2. Install dependencies using `npm install`.
-3. Start the development server using `npm start`.
-4. Access the application in your web browser at [http://localhost:3000](http://localhost:3000).
+- **Frontend**: HTML, CSS, JavaScript
 
 For detailed instructions on contributing to or customizing the project, refer to the README.md file in the root directory.
