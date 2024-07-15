@@ -342,8 +342,7 @@ height: 55px;
     padding: 8px;
     border-radius: 90px;
 }
-.middle4 
-{
+.middle4 {
     background-image: url(images/grocery_desktop.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -352,37 +351,51 @@ height: 55px;
     padding-top: 10%;
     color: white;
     height: 85%;
-    filter: brightness(0.5);
     background-position: center center;
+    position: relative;
 }
-.m4 
-{
+
+.middle4::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    filter: brightness(0.5);
+    z-index: 1;
+}
+
+.m4 {
+    position: relative;
+    z-index: 2;
     text-align: center;
 }
-.m4c1 
-{
+
+.m4c1 {
     margin-left: 35%;
     width: 30%;
     line-height: normal;
     font-family: normsbold;
     font-size: 35px;
 }
-.m4c2 
-{
+
+.m4c2 {
     padding-top: 10px;
     font-size: 20px;
     font-family: normsnormal;
 }
-.m4c3 
-{
+
+.m4c3 {
     margin-left: 32.5%;
     width: 35%;
     text-align: center;
     padding-top: 10px;
     font-family: normsnormal;
 }
-.m4 button 
-{
+
+.m4 button {
     font-size: 15px;
     font-family: normsbold;
     margin-top: 30px;
